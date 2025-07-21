@@ -6,11 +6,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #1E1E1E;
     color: white;
     font-size: 1em;
     font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Início */
@@ -54,7 +63,7 @@ section.main > h1 {
     margin-bottom: 30px;
 }
 
-section.main > button {
+section.main > a > button {
     background-color: #333333;
     color: white;
     font-size: 1em;
@@ -63,22 +72,22 @@ section.main > button {
     outline: none;
 }
 
-section.main > button.projects {
+section.main > a > button.projects {
     margin: 60px 50px 0px 0px;
     border: 5px solid #2005C7;
 }
 
-section.main > button.cv {
+section.main > a > button.cv {
     border: 5px solid #2005C7;
 }
 
-section.main > button.projects:hover {
+section.main > a > button.projects:hover {
     cursor: pointer;
     transform: translate(-2px, -2px);
     transition: transform 0.1s ease;
 }
 
-section.main > button.cv:hover {
+section.main > a > button.cv:hover {
     cursor: pointer;
     transform: translate(-2px, -2px);
     transition: transform 0.3s ease;
@@ -162,6 +171,7 @@ section.techs {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 section.techs > div {
@@ -181,4 +191,3 @@ section.techs > div > img {
     width: 75px;
     height: 75px;
 }
-
