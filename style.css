@@ -27,7 +27,7 @@ a {
 /* Mobile First */
 
 header {
-    font-size: 0.8em;
+    font-size: 0.4em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -209,6 +209,7 @@ section.techs > div > img {
 @media (min-width: 1024px) {
 
     header {
+        font-size: 1em;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -333,6 +334,10 @@ section.techs > div > img {
         margin-bottom: 150px;
     }
 
+    nav.projects-display > img {
+    width: 350px;
+}
+
     /* Sobre */
 
     section.about > h1 {
@@ -386,6 +391,7 @@ section.techs > div > img {
     /* Início */
     
     header {
+        font-size: 1em;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
